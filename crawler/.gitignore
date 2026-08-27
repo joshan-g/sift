@@ -1,0 +1,30 @@
+# Credentials — never commit these
+.env
+*.env
+secrets*
+creds*
+
+# Answers & target-identifying data — kept local, never pushed
+passwords.json
+urls_discovered.txt
+crawl_log.jsonl
+SUBMISSION.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local scratch / downloaded challenge assets (images, etc.)
+scratch/
+*.jpg
+*.jpeg
+*.png
