@@ -1,0 +1,36 @@
+# ── Credentials — never commit ──
+.env
+*.env
+secrets*
+creds*
+
+# ── Answers & target-identifying data — kept local, never pushed ──
+# (bare names match these files anywhere in the tree, incl. crawler/)
+passwords.json
+urls_discovered.txt
+crawl_log.jsonl
+SUBMISSION.md
+
+# ── Claude Code local files (agent settings, memory, etc.) ──
+.claude/
+**/.claude/
+CLAUDE.md
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ── OS / editor ──
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ── Local scratch / downloaded assets (images, etc.) ──
+scratch/
+*.jpg
+*.jpeg
+*.png
